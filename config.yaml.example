@@ -1,0 +1,29 @@
+# ==============================================
+# AI Sales Analytics - API Configuration
+# ==============================================
+# 复制此文件为 config.yaml 并填入你的 API Key
+# cp config.yaml.example config.yaml
+#
+# ⚠️ config.yaml 已加入 .gitignore，不会被提交
+# ==============================================
+
+# 默认使用的 AI 服务商: openai / siliconflow
+default_provider: "siliconflow"
+
+# OpenAI 配置
+openai:
+  api_key: ""
+  base_url: "https://api.openai.com/v1"
+  model: "gpt-4o"
+
+# 硅基流动 (SiliconFlow) 配置
+siliconflow:
+  api_key: ""
+  base_url: "https://api.siliconflow.cn/v1"
+  # 可选模型:
+  #   - Qwen/Qwen2.5-72B-Instruct (推荐)
+  #   - deepseek-ai/DeepSeek-V3
+  #   - deepseek-ai/DeepSeek-R1
+  #   - Pro/Qwen/Qwen2.5-7B-Instruct (免费)
+  #   - THUDM/glm-4-9b-chat (免费)
+  model: "Qwen/Qwen2.5-72B-Instruct"
