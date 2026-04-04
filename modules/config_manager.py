@@ -37,6 +37,9 @@ PROVIDERS = {
         "base_url": "https://api.siliconflow.cn/v1",
         "default_model": "Qwen/Qwen2.5-72B-Instruct",
         "models": [
+            "Pro/deepseek-ai/DeepSeek-V3.2",
+            "Pro/moonshotai/Kimi-K2.5",
+            "Pro/MiniMaxAI/MiniMax-M2.5",
             "Qwen/Qwen2.5-72B-Instruct",
             "deepseek-ai/DeepSeek-V3",
             "deepseek-ai/DeepSeek-R1",
