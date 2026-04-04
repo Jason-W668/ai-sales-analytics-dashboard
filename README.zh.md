@@ -361,7 +361,7 @@ cp locales/en.json locales/ja.json
 
 **擅长领域：** AI/LLM 集成 · 数据分析与 BI · 物联网系统 · 全栈架构
 
-[Email](wojingchen@gmail.com)
+[Email](mailto:wojingchen@foxmail.com)
 
 ---
 

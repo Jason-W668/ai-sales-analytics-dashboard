@@ -325,7 +325,7 @@ I help businesses turn ideas into production AI solutions — from initial archi
 
 **Specialties:** AI/LLM Integration · Data Analytics & BI · IoT Systems · Full-Stack Architecture
 
-[Email](mailto:wojingchen@gmail.com)
+[Email](mailto:wojingchen@foxmail.com)
 
 ***
 
