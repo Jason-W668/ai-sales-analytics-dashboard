@@ -1,0 +1,205 @@
+{
+    "_meta": {
+      "locale": "en",
+      "name": "English",
+      "nativeName": "English",
+      "direction": "ltr",
+      "authors": ["AI Sales Analytics Team"],
+      "version": "2.0.0"
+    },
+  
+    "app": {
+      "title": "📊 AI-Powered Sales Analytics",
+      "subtitle": "Interactive Dashboard with Predictive Insights & Natural Language Query",
+      "footer": "Built with Python · Streamlit · Plotly | Supports OpenAI 🤖 & SiliconFlow 🌊 | Data: Superstore Sales Dataset",
+      "version": "v2.0"
+    },
+  
+    "sidebar": {
+      "control_panel": "🎛️ Control Panel",
+      "date_range": "📅 Date Range",
+      "region": "🗺️ Region",
+      "category": "📦 Category",
+      "segment": "👥 Segment",
+      "language": "🌐 Language",
+  
+      "ai": {
+        "configuration": "🤖 AI Configuration",
+        "provider": "AI Provider",
+        "model": "Model",
+        "local_key_found": "Local Key",
+        "using_local_key": "✅ Using API Key from config.yaml",
+        "no_local_key": "💡 No local key found in config.yaml",
+        "enter_key_hint": "Enter API Key below to override (not saved):",
+        "key_placeholder": "Enter API Key...",
+        "ready": "✅ Ready",
+        "source": "Source",
+        "frontend_input": "Frontend Input",
+        "no_key_configured": "⚠️ No API Key configured",
+        "get_key_here": "Get your key here →"
+      }
+    },
+  
+    "info_bar": {
+      "records": "records",
+      "orders": "orders",
+      "customers": "customers"
+    },
+  
+    "tabs": {
+      "overview": "📊 Overview",
+      "deep_dive": "📈 Sales Deep Dive",
+      "regional": "🗺️ Regional Analysis",
+      "products": "🏷️ Products & Customers",
+      "ai_insights": "🤖 AI Insights",
+      "forecast": "🔮 Forecast & Ask AI",
+      "forecast_sub": "🔮 Sales Forecast",
+      "ask_ai_sub": "💬 Ask AI"
+    },
+  
+    "kpi": {
+      "total_revenue": "Total Revenue",
+      "total_profit": "Total Profit",
+      "total_orders": "Total Orders",
+      "profit_margin": "Profit Margin",
+      "avg_order_value": "Avg Order Value",
+      "customers": "Customers",
+      "avg_discount": "Avg Discount",
+      "items_sold": "Items Sold"
+    },
+  
+    "charts": {
+      "sales_trend": "📈 Sales & Profit Trend",
+      "regional_sales": "🗺️ Sales & Profit by Region",
+      "category_bar": "📦 Sales & Profit by Category",
+      "sunburst": "🏷️ Category & Sub-Category Breakdown",
+      "subcategory_profit": "💰 Profit by Sub-Category (Red = Loss)",
+      "segment_donut": "👥 Sales by Customer Segment",
+      "top_products": "🏆 Top {n} Products by Sales",
+      "top_customers": "👤 Top {n} Customers by Sales",
+      "state_map": "🗺️ Sales Distribution by State",
+      "top_states": "🏅 Top {n} States by Sales",
+      "top_cities": "🏙️ Top {n} Cities by Sales",
+      "discount_profit": "🏷️ Discount vs Profit (by Category)",
+      "ship_mode": "🚚 Orders by Ship Mode",
+      "yearly_comparison": "📅 Year-over-Year Sales Comparison",
+      "quarterly_heatmap": "📊 Quarterly Sales Heatmap",
+      "monthly_category": "📈 Monthly Sales by Category",
+      "forecast": "🔮 Sales Forecast — {model}",
+  
+      "axis": {
+        "date": "Date",
+        "amount": "Amount ($)",
+        "sales": "Sales ($)",
+        "profit": "Profit ($)",
+        "discount_rate": "Discount Rate",
+        "month": "Month"
+      },
+  
+      "legend": {
+        "sales": "Sales",
+        "profit": "Profit",
+        "historical": "Historical Sales",
+        "fitted": "Fitted Values",
+        "forecast": "Forecast",
+        "confidence": "95% Confidence Interval",
+        "forecast_start": "Forecast Start"
+      }
+    },
+  
+    "deep_dive": {
+      "yoy_comparison": "### 📈 Year-over-Year Comparison",
+      "discount_impact": "### 🏷️ Discount Impact Analysis",
+      "discounted_orders": "Discounted Orders",
+      "of_total": "of total",
+      "profit_discounted": "Profit (Discounted)",
+      "profit_full_price": "Profit (Full Price)",
+      "subcategory_profitability": "### 💰 Sub-Category Profitability"
+    },
+  
+    "regional": {
+      "geo_distribution": "### 🗺️ Geographic Sales Distribution",
+      "summary_title": "### 📋 Regional Performance Summary",
+      "columns": {
+        "total_sales": "Total Sales ($)",
+        "total_profit": "Total Profit ($)",
+        "orders": "Orders",
+        "customers": "Customers",
+        "qty": "Qty Sold",
+        "avg_discount": "Avg Discount",
+        "profit_margin": "Profit Margin (%)"
+      }
+    },
+  
+    "products": {
+      "top_products_slider": "Number of top products",
+      "top_customers_slider": "Number of top customers",
+      "view_raw_data": "📋 View Raw Data",
+      "showing_records": "Showing {n} records"
+    },
+  
+    "ai_insights": {
+      "title": "### 🤖 AI-Powered Business Insights",
+      "description": "Click the button below to generate a comprehensive AI analysis of your sales data.",
+      "generate_btn": "🚀 Generate AI Insights",
+      "analyzing": "🧠 AI is analyzing your data... This may take 15-30 seconds.",
+      "previous": "*📝 Previously generated insights:*",
+      "configure_warning": "⚠️ Please configure your AI API Key to use this feature.",
+      "how_to_configure": "**How to configure:**\n\n**Option 1 — Local Config (Recommended, persistent):**\n1. Copy `config.yaml.example` to `config.yaml`\n2. Fill in your API key\n3. Restart the app\n\n**Option 2 — Frontend Input (Temporary):**\n1. Select your AI provider in the sidebar\n2. Enter your API key in the input field\n3. Key is only stored in memory, disappears on refresh"
+    },
+  
+    "forecast": {
+      "title": "### 🔮 Sales Forecasting",
+      "description": "Predict future sales using time series analysis.",
+      "period": "Forecast Period",
+      "months": "{n} months",
+      "not_enough_data": "⚠️ Not enough data for forecasting. Need at least 6 months.",
+      "fitting_model": "🔄 Fitting forecast model...",
+      "metric_model": "Model",
+      "forecast_total": "Forecast Total ({n}mo)",
+      "avg_monthly": "Avg Monthly Forecast",
+      "table_title": "📋 Forecast Data Table",
+      "columns": {
+        "predicted": "Predicted Sales ($)",
+        "lower": "Lower Bound ($)",
+        "upper": "Upper Bound ($)"
+      }
+    },
+  
+    "ask_ai": {
+      "title": "### 💬 Ask AI About Your Data",
+      "description": "Ask any question about the sales data in natural language.",
+      "no_key": "⚠️ Please configure your AI API Key in the sidebar.",
+      "supports": "💡 Supports: SiliconFlow (硅基流动) / OpenAI",
+      "sample_title": "**💡 Try these sample questions:**",
+      "your_question": "🔍 Your question:",
+      "placeholder": "e.g., Which state has the worst profit margin?",
+      "thinking": "🧠 AI is thinking...",
+      "answer": "#### 🤖 AI Answer:",
+      "samples": {
+        "q1": "Which region has the highest profit margin?",
+        "q2": "What are the top 3 most profitable sub-categories?",
+        "q3": "How does discount affect profitability?",
+        "q4": "Which customer segment should we focus on?",
+        "q5": "What products should we consider discontinuing?",
+        "q6": "Compare Q4 vs Q1 performance"
+      }
+    },
+  
+    "common": {
+      "orders_text": "orders",
+      "avg_text": "avg",
+      "days_text": "days"
+    },
+  
+    "errors": {
+      "no_data_warning": "⚠️ No data matches your filters. Please adjust the filters in the sidebar.",
+      "load_data_failed": "❌ Failed to load data file. Please check data/sales_data.csv"
+    },
+  
+    "ai_prompts": {
+      "language_instruction": "Respond in English.",
+      "insight_system": "You are a senior business intelligence analyst with 15 years of retail analytics experience.\n\nAnalyze the provided Superstore sales data and deliver a comprehensive executive report.\n\nFORMAT your response clearly with these sections (use markdown):\n\n## 📊 Executive Summary\n(2-3 sentence overview of the business performance)\n\n## 🔍 Top 5 Key Findings\n(Numbered list with specific numbers, percentages, and comparisons)\n\n## ⚠️ Areas of Concern\n(Identify 3-4 problem areas with data evidence - losses, declining trends, etc.)\n\n## 💡 Strategic Recommendations\n(5 actionable, specific recommendations based on the data)\n\n## 📈 Growth Opportunities\n(3 specific growth opportunities with estimated impact)\n\n## 🎯 Quick Wins\n(3 things that can be implemented immediately)\n\nBe SPECIFIC with numbers. Compare regions, categories, segments.\nIdentify patterns, anomalies, and correlations.\nMake recommendations data-driven and actionable.",
+      "qa_system": "You are a helpful data analyst assistant. You have access to a Superstore retail sales dataset.\n\nINSTRUCTIONS:\n- Answer questions based ONLY on the data provided\n- Be specific with numbers, percentages, and comparisons\n- If you cannot determine something from the data, say so clearly\n- Format your answer with markdown for readability\n- Use bullet points for lists\n- Include relevant numbers to support your answer\n- Keep answers concise but thorough"
+    }
+  }

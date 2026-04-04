@@ -1,0 +1,205 @@
+{
+    "_meta": {
+      "locale": "zh-CN",
+      "name": "Simplified Chinese",
+      "nativeName": "简体中文",
+      "direction": "ltr",
+      "authors": ["AI Sales Analytics Team"],
+      "version": "2.0.0"
+    },
+  
+    "app": {
+      "title": "📊 AI 智能销售分析看板",
+      "subtitle": "交互式仪表盘 · 预测分析 · 自然语言查询",
+      "footer": "基于 Python · Streamlit · Plotly 构建 | 支持 OpenAI 🤖 & 硅基流动 🌊 | 数据: Superstore 销售数据集",
+      "version": "v2.0"
+    },
+  
+    "sidebar": {
+      "control_panel": "🎛️ 控制面板",
+      "date_range": "📅 日期范围",
+      "region": "🗺️ 地区",
+      "category": "📦 产品类别",
+      "segment": "👥 客户分类",
+      "language": "🌐 语言",
+  
+      "ai": {
+        "configuration": "🤖 AI 配置",
+        "provider": "AI 服务商",
+        "model": "模型",
+        "local_key_found": "本地密钥",
+        "using_local_key": "✅ 使用 config.yaml 中的密钥",
+        "no_local_key": "💡 未在 config.yaml 中找到密钥",
+        "enter_key_hint": "在下方输入 API Key 覆盖（不会保存）：",
+        "key_placeholder": "输入 API Key...",
+        "ready": "✅ 就绪",
+        "source": "来源",
+        "frontend_input": "前端输入",
+        "no_key_configured": "⚠️ 未配置 API Key",
+        "get_key_here": "在此获取密钥 →"
+      }
+    },
+  
+    "info_bar": {
+      "records": "条记录",
+      "orders": "笔订单",
+      "customers": "位客户"
+    },
+  
+    "tabs": {
+      "overview": "📊 总览",
+      "deep_dive": "📈 销售深度分析",
+      "regional": "🗺️ 区域分析",
+      "products": "🏷️ 产品与客户",
+      "ai_insights": "🤖 AI 洞察",
+      "forecast": "🔮 预测与AI问答",
+      "forecast_sub": "🔮 销售预测",
+      "ask_ai_sub": "💬 AI 问答"
+    },
+  
+    "kpi": {
+      "total_revenue": "总营收",
+      "total_profit": "总利润",
+      "total_orders": "总订单数",
+      "profit_margin": "利润率",
+      "avg_order_value": "平均客单价",
+      "customers": "客户数",
+      "avg_discount": "平均折扣",
+      "items_sold": "销售数量"
+    },
+  
+    "charts": {
+      "sales_trend": "📈 销售额与利润趋势",
+      "regional_sales": "🗺️ 各地区销售额与利润",
+      "category_bar": "📦 各产品类别销售额与利润",
+      "sunburst": "🏷️ 类别与子类别分布",
+      "subcategory_profit": "💰 子类别利润分析（红色 = 亏损）",
+      "segment_donut": "👥 各客户分类销售占比",
+      "top_products": "🏆 销售额前 {n} 的产品",
+      "top_customers": "👤 销售额前 {n} 的客户",
+      "state_map": "🗺️ 各州销售分布",
+      "top_states": "🏅 销售额前 {n} 的州",
+      "top_cities": "🏙️ 销售额前 {n} 的城市",
+      "discount_profit": "🏷️ 折扣与利润关系（按类别）",
+      "ship_mode": "🚚 各配送方式订单量",
+      "yearly_comparison": "📅 年度同比销售对比",
+      "quarterly_heatmap": "📊 季度销售额热力图",
+      "monthly_category": "📈 各类别月度销售趋势",
+      "forecast": "🔮 销售预测 — {model}",
+  
+      "axis": {
+        "date": "日期",
+        "amount": "金额（$）",
+        "sales": "销售额（$）",
+        "profit": "利润（$）",
+        "discount_rate": "折扣率",
+        "month": "月份"
+      },
+  
+      "legend": {
+        "sales": "销售额",
+        "profit": "利润",
+        "historical": "历史销售额",
+        "fitted": "拟合值",
+        "forecast": "预测值",
+        "confidence": "95% 置信区间",
+        "forecast_start": "预测起点"
+      }
+    },
+  
+    "deep_dive": {
+      "yoy_comparison": "### 📈 年度同比对比",
+      "discount_impact": "### 🏷️ 折扣影响分析",
+      "discounted_orders": "折扣订单",
+      "of_total": "占总数",
+      "profit_discounted": "利润（有折扣）",
+      "profit_full_price": "利润（全价）",
+      "subcategory_profitability": "### 💰 子类别盈利分析"
+    },
+  
+    "regional": {
+      "geo_distribution": "### 🗺️ 地理销售分布",
+      "summary_title": "### 📋 区域绩效汇总",
+      "columns": {
+        "total_sales": "总销售额($)",
+        "total_profit": "总利润($)",
+        "orders": "订单数",
+        "customers": "客户数",
+        "qty": "销售量",
+        "avg_discount": "平均折扣",
+        "profit_margin": "利润率(%)"
+      }
+    },
+  
+    "products": {
+      "top_products_slider": "显示前 N 个产品",
+      "top_customers_slider": "显示前 N 个客户",
+      "view_raw_data": "📋 查看原始数据",
+      "showing_records": "共 {n} 条记录"
+    },
+  
+    "ai_insights": {
+      "title": "### 🤖 AI 驱动的商业洞察",
+      "description": "点击下方按钮，AI 将对销售数据进行全面的智能分析。",
+      "generate_btn": "🚀 生成 AI 分析报告",
+      "analyzing": "🧠 AI 正在分析数据... 大约需要 15-30 秒。",
+      "previous": "*📝 上次生成的分析结果：*",
+      "configure_warning": "⚠️ 请先配置 AI API Key 才能使用此功能。",
+      "how_to_configure": "**配置方法：**\n\n**方式一 — 本地配置（推荐，持久化）：**\n1. 复制 `config.yaml.example` 为 `config.yaml`\n2. 填入你的 API Key\n3. 重启应用\n\n**方式二 — 前端输入（临时）：**\n1. 在侧边栏选择 AI 服务商\n2. 在输入框中粘贴 API Key\n3. Key 仅保存在内存中，刷新页面后消失"
+    },
+  
+    "forecast": {
+      "title": "### 🔮 销售预测",
+      "description": "基于时间序列分析预测未来销售趋势。",
+      "period": "预测周期",
+      "months": "{n} 个月",
+      "not_enough_data": "⚠️ 数据不足，至少需要6个月的数据才能预测。",
+      "fitting_model": "🔄 正在拟合预测模型...",
+      "metric_model": "模型",
+      "forecast_total": "预测总额（{n}月）",
+      "avg_monthly": "月均预测额",
+      "table_title": "📋 预测数据表",
+      "columns": {
+        "predicted": "预测销售额($)",
+        "lower": "下限($)",
+        "upper": "上限($)"
+      }
+    },
+  
+    "ask_ai": {
+      "title": "### 💬 用自然语言向 AI 提问",
+      "description": "用自然语言对销售数据提出任何问题。",
+      "no_key": "⚠️ 请在侧边栏配置 AI API Key。",
+      "supports": "💡 支持：硅基流动 / OpenAI",
+      "sample_title": "**💡 试试以下示例问题：**",
+      "your_question": "🔍 你的问题：",
+      "placeholder": "例如：哪个州的利润率最低？",
+      "thinking": "🧠 AI 思考中...",
+      "answer": "#### 🤖 AI 回答：",
+      "samples": {
+        "q1": "哪个地区利润率最高？",
+        "q2": "利润最高的3个子类别是什么？",
+        "q3": "折扣如何影响利润？",
+        "q4": "我们应该关注哪个客户群体？",
+        "q5": "哪些产品应考虑停产？",
+        "q6": "对比第四季度和第一季度的表现"
+      }
+    },
+  
+    "common": {
+      "orders_text": "笔订单",
+      "avg_text": "平均",
+      "days_text": "天"
+    },
+  
+    "errors": {
+      "no_data_warning": "⚠️ 没有匹配筛选条件的数据，请调整侧边栏的筛选器。",
+      "load_data_failed": "❌ 无法加载数据文件，请检查 data/sales_data.csv"
+    },
+  
+    "ai_prompts": {
+      "language_instruction": "请用简体中文回复。",
+      "insight_system": "你是一位拥有15年零售分析经验的高级商业智能分析师。\n\n分析提供的 Superstore 销售数据，撰写一份全面的管理层报告。\n\n请使用以下格式（使用 Markdown）：\n\n## 📊 执行摘要\n（2-3句话概述业务表现）\n\n## 🔍 五大关键发现\n（带编号列表，包含具体数字、百分比和对比）\n\n## ⚠️ 需关注的问题\n（找出3-4个问题领域，附上数据证据——亏损、下降趋势等）\n\n## 💡 战略建议\n（基于数据提出5条可操作的具体建议）\n\n## 📈 增长机会\n（3个具体的增长机会及预估影响）\n\n## 🎯 速赢方案\n（3个可以立即实施的举措）\n\n务必使用具体数字。对比各地区、类别、客户群体。\n识别模式、异常和关联关系。\n让建议基于数据且可操作。",
+      "qa_system": "你是一位专业的数据分析助手。你可以访问一份超市零售销售数据集。\n\n规则：\n- 仅根据提供的数据回答问题\n- 使用具体的数字、百分比和对比\n- 如果无法从数据中判断，请明确说明\n- 使用 Markdown 格式化回答\n- 使用列表展示要点\n- 用数据支撑你的回答\n- 保持简洁但全面"
+    }
+  }
